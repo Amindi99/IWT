@@ -1,0 +1,136 @@
+<!DOCTYPE>
+<html>
+
+<head>       
+
+<meta charset="utf-8">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>UserProfile</title> 
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<style>
+
+		h1{
+		font-size:30px;
+		font-family:AcmeFont;
+	     }
+		 
+	body {
+		background:#66cc66;
+		}	 
+		
+	input[type=email], select {
+	  width: 50%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	   }	
+	
+	input[type=submit] {
+	  width: 20%;
+	  background-color: #ffffff;
+	  color: white;
+	  font-size:20px;
+	  padding: 14px 20px;
+	  font-family:Arial Rounded MT Bold;
+	  background-color: #4CAF50;
+	  margin: 10px 0;
+	  border: none;
+	  border-radius: 10px;
+	  cursor: pointer;}
+	  
+	form{
+		font-size:20px;
+		font-family:Chaparral Pro;
+		background-color:white;
+		width: 1000px;
+		padding:60px;
+		margin: 40x;
+		border-radius:25px;
+		}
+		
+	.h1 {
+	  width: 700px;
+	  padding: 30px;
+	  color:black;
+      }	
+
+</style>
+
+<title> Fogot password</title>
+
+</head>
+
+<body>
+
+<div>
+
+	<div class="head-two-cell">
+
+		<div> <!-- this contain logo    -->
+			<img src="images/Logo Tech.png" width="200" height="100">
+		</div>
+
+	</div>
+
+	<center><h1 class="title">Technical Support Center</h1></center>	
+	</div>
+	<hr>
+<ul class =menu>
+	<li class=menu><a href="#">Home</a></li>
+	<li class=menu><a href="">Services</a></li>
+	<li class=menu><a href="">Register</a></li>
+	<li class=menu><a href="">Contact Us</a></li>
+	<li class=menu><a href="">About Us</a></li>
+</ul>
+
+<div class="h1">
+<h1> Forgot your password ?</h1>
+</div>
+
+<form>
+
+Enter your Email address and we'll send your link to reset your password.<br><br>
+<input type="email" name="email" placeholder=" abc@gmail.com" required></br></br>
+<input type="submit" id="reset" value="Reset">
+
+</form>
+
+<div class="footer-main-div">
+<center><div class="footer-social-icons">
+	<a href="#"><img class="social" src="images/facebook.png"></a>
+	<a href="#"><img class="social" src="images/twitter.png"></a>
+	<a href="#"><img class="social" src="images/google-plus.png"></a>
+	<a href="#"><img class="social" src="images/youtube.png"></a>
+</div></center>
+	
+<div class="footer-menu-one">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Register</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">About Us</a></li>
+	</ul>
+</div>
+<div class="footer-menu-two">
+	<ul>
+		<li><a href="#">Feedback</a></li>
+		<li><a href="#">Payments</a></li>
+		<li><a href="#">User account</a></li>
+		<li><a href="#">About Us</a></li>
+	</ul>
+</div>
+</div>	
+
+
+</body>
+
+</body>
+
+</html
+	
