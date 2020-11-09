@@ -1,0 +1,193 @@
+
+		.body {
+   background-color: #f80000;
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    width: 100%;
+    padding:10px;
+    height: auto;
+}
+
+.row .column_25 {
+    width: 25%;  
+}
+.row .column_33{
+    width: 33%;  
+}
+.row .column_50 {
+    width: 50%;  
+}
+
+.div-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden; 
+    color: white;
+    background-color:#333;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.a-text {
+    text-decoration: none;
+    color: white;
+}
+
+.div-box{
+    height: auto;
+    background-color: aliceblue;
+    margin-left: 6%;
+    text-align: center;
+    color: black;;
+    font-size: 12px;
+    font-family: cursive;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.div-box-profile{
+    height: auto; 
+    margin-left: 6%;
+    text-align: center;
+    color: black;;
+    font-size: 12px;
+    font-family: cursive;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.margin-top-5
+{
+    margin-right: 5%
+}
+
+.push-left
+{
+    float: left;
+}
+
+.push-right
+{
+    float: right;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.section {
+    margin: 10px;
+    overflow: overlay;
+}
+
+/* navigation menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}
+
+/* css for fonts */
+.font-size-12
+{
+    font-size: 12px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.payment-box{
+    margin: 0 auto;
+    width: 55%;
+  
+		
+
+}
+
+.text-box {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+
+/* media libraries */
+@media (min-width: 576px)
+{
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1140px;
+    }
+}
