@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script>  
+
+
+  function chkNewPassword()
+  {
+	var newpw = document.getElementById("newPw").value;
+	var lenPw = newpw.length;
+
+	if(lenPw >= 8)
+	{
+
+					if( document.getElementById("newPw").value == document.getElementById("newPwConfirm").value )
+					{
+						alert("password changed successfully");
+						window.location.replace("login.html");
+						
+					}
+
+					else
+					{
+						alert("password did not match !");
+						location.reload();
+					}
+
+	}
+
+	else
+	{
+		alert("password should contain at least 8 characters !");
+		location.reload();
+	}
+  }
+
+</script>
+
+
+<style>
+
+		h1{
+		font-size:30px;
+		font-family:AcmeFont;
+	     }
+		 
+	body {
+		background:#66cc66;
+		}	 
+		
+	input[type=password], select {
+	  width: 50%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	   }	
+	
+	input[type=button] {
+	  width: 20%;
+	  background-color: #ffffff;
+	  color: white;
+	  font-size:20px;
+	  padding: 14px 20px;
+	  font-family:Arial Rounded MT Bold;
+	  background-color: #4CAF50;
+	  margin: 10px 0;
+	  border: none;
+	  border-radius: 10px;
+	  cursor: pointer;}
+	  
+	form{
+		font-size:20px;
+		font-family:Chaparral Pro;
+		background-color:white;
+		width: 1000px;
+		padding:60px;
+		margin: 40x;
+		border-radius:25px;
+		}
+		
+	.h1 {
+	  width: 700px;
+	  padding: 30px;
+	  color:black;
+      }	
+	  
+	 p{
+		font-size:20px;
+		font-family:Chaparral Pro;
+		} 
+
+</style>
+<title> Change password</title>
+
+<meta charset="utf-8">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>UserProfile</title> 
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+</head>
+
+<body>
+<div>
+
+	<div class="head-two-cell">
+
+		<div> <!-- this contain logo    -->
+			<img src="images/Logo Tech.png" width="200" height="100">
+		</div>
+
+	</div>
+
+	<center><h1 class="title">Technical Support Center</h1></center>	
+	</div>
+	<hr>
+<ul class =menu>
+	<li class=menu><a href="#">Home</a></li>
+	<li class=menu><a href="">Services</a></li>
+	<li class=menu><a href="">Register</a></li>
+	<li class=menu><a href="">Contact Us</a></li>
+	<li class=menu><a href="">About Us</a></li>
+</ul>
+
+<h1> Change password ?</h1>
+<p>Your password must be at least 6 characters in length.We strongly encourage you to include a combinations of
+   letters,numbers and special characters.<br>(such as @!?*_#$)</p> <br>
+
+ 
+<form method="POST">
+
+Old password :<br>
+<input type="password" id="oldPw"required></br></br><br>
+New password :<br>
+<input type="password" id="newPw"required></br></br><br>
+Confirm password :<br>
+<input type="password" id="newPwConfirm"required></br></br><br>
+
+<input type="button" id="reset" value="Save Changers" onclick="chkNewPassword()"> <br><br>
+  <a href="login.html"> Back to login</a> 	
+
+
+</form>
+
+<div class="footer-main-div">
+<center><div class="footer-social-icons">
+	<a href="#"><img class="social" src="images/facebook.png"></a>
+	<a href="#"><img class="social" src="images/twitter.png"></a>
+	<a href="#"><img class="social" src="images/google-plus.png"></a>
+	<a href="#"><img class="social" src="images/youtube.png"></a>
+</div></center>
+	
+<div class="footer-menu-one">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Services</a></li>
+		<li><a href="#">Register</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="#">About Us</a></li>
+	</ul>
+</div>
+<div class="footer-menu-two">
+	<ul>
+		<li><a href="#">Feedback</a></li>
+		<li><a href="#">Payments</a></li>
+		<li><a href="#">User account</a></li>
+		<li><a href="#">About Us</a></li>
+	</ul>
+</div>
+</div>	
+
+<div class="footer-bottom">
+	<p>Design by: <a href="#">Kanchila Lakindu</a></p>
+</div>
+</body>
+
+</html>
